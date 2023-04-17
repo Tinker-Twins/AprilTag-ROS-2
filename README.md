@@ -1,6 +1,10 @@
 # AprilTag ROS 2
 ### [AprilTag Detection and Tracking](https://github.com/Tinker-Twins/AprilTag) with ROS 2
 
+| ![AprilTag Tracking Simulation](https://github.com/Tinker-Twins/Autonomy-Science-And-Systems/blob/main/Capstone%20Project/media/apriltag_tracking_sim.gif) | ![AprilTag Tracking Robot](https://github.com/Tinker-Twins/Autonomy-Science-And-Systems/blob/main/Capstone%20Project/media/apriltag_tracking_real_robot.gif) | ![AprilTag Tracking RViz](https://github.com/Tinker-Twins/Autonomy-Science-And-Systems/blob/main/Capstone%20Project/media/apriltag_tracking_real_rviz.gif) |
+|:-------------------------------------:|:-----------------------------------------:|:-----------------------------------------:|
+| AprilTag Tracking - Simulation | AprilTag Tracking - TurtleBot3 | AprilTag Tracking - Remote PC |
+
 ## Build:
 1. Make a directory `ROS2_WS` to act as your ROS 2 workspace.
     ```bash
