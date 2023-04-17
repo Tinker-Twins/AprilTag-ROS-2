@@ -5,6 +5,8 @@
 |:-------------------------------------:|:-----------------------------------------:|:-----------------------------------------:|
 | AprilTag Tracking - Simulation | AprilTag Tracking - TurtleBot3 | AprilTag Tracking - Remote PC |
 
+**Note:** The above demonstrations use [this repository](https://github.com/Tinker-Twins/Autonomy-Science-And-Systems) for controlling TurtleBot3 to follow the AprilTag marker.
+
 ## Build:
 1. Make a directory `ROS2_WS` to act as your ROS 2 workspace.
     ```bash
