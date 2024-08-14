@@ -362,7 +362,7 @@ bool V4L2Camera::requestImageSize(std::vector<int64_t> const & size)
   if (size.size() != 2) {
     RCLCPP_WARN(
       get_logger(),
-      "Invalid image size; expected dimensions: 2, actual: %d",
+      "Invalid image size; expected dimensions: 2, actual: %lu",
       size.size());
     return false;
   }
@@ -383,7 +383,7 @@ bool V4L2Camera::requestTimePerFrame(TimePerFrame const & tpf)
   if (tpf.size() != 2) {
     RCLCPP_WARN(
       get_logger(),
-      "Invalid time per frame; expected dimensions: 2, actual: %d",
+      "Invalid time per frame; expected dimensions: 2, actual: %lu",
       tpf.size());
     return false;
   }
